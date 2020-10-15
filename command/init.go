@@ -19,11 +19,11 @@ import (
 	backendInit "github.com/hashicorp/terraform/backend/init"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/hashicorp/terraform/unstable/getproviders"
+	"github.com/hashicorp/terraform/unstable/providercache"
 	tfversion "github.com/hashicorp/terraform/version"
 )
 

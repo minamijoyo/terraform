@@ -20,12 +20,12 @@ import (
 	"github.com/hashicorp/terraform/configs/configload"
 	"github.com/hashicorp/terraform/helper/experiment"
 	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/internal/initwd"
 	"github.com/hashicorp/terraform/plans"
 	"github.com/hashicorp/terraform/providers"
 	"github.com/hashicorp/terraform/provisioners"
 	"github.com/hashicorp/terraform/registry"
 	"github.com/hashicorp/terraform/states"
+	"github.com/hashicorp/terraform/unstable/initwd"
 )
 
 // This is the directory where our test fixtures are.

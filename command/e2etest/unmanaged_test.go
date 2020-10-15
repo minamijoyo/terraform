@@ -14,8 +14,8 @@ import (
 	"github.com/hashicorp/terraform/builtin/providers/test"
 	"github.com/hashicorp/terraform/e2e"
 	grpcplugin "github.com/hashicorp/terraform/helper/plugin"
-	proto "github.com/hashicorp/terraform/internal/tfplugin5"
 	tfplugin "github.com/hashicorp/terraform/plugin"
+	proto "github.com/hashicorp/terraform/unstable/tfplugin5"
 )
 
 // The tests in this file are for the "unmanaged provider workflow", which

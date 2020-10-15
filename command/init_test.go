@@ -21,12 +21,12 @@ import (
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/depsfile"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statefile"
 	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/hashicorp/terraform/unstable/depsfile"
+	"github.com/hashicorp/terraform/unstable/getproviders"
+	"github.com/hashicorp/terraform/unstable/providercache"
 )
 
 func TestInit_empty(t *testing.T) {

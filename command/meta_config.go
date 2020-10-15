@@ -13,11 +13,11 @@ import (
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configload"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/earlyconfig"
-	"github.com/hashicorp/terraform/internal/initwd"
 	"github.com/hashicorp/terraform/registry"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/hashicorp/terraform/unstable/earlyconfig"
+	"github.com/hashicorp/terraform/unstable/initwd"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 )

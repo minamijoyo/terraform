@@ -7,10 +7,10 @@ import (
 	"os"
 
 	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/internal/depsfile"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
 	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/hashicorp/terraform/unstable/depsfile"
+	"github.com/hashicorp/terraform/unstable/getproviders"
+	"github.com/hashicorp/terraform/unstable/providercache"
 )
 
 // ProvidersLockCommand is a Command implementation that implements the

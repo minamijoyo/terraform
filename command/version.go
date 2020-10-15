@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/internal/depsfile"
+	"github.com/hashicorp/terraform/unstable/depsfile"
 )
 
 // VersionCommand is a Command implementation prints the version.

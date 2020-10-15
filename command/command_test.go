@@ -21,16 +21,15 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/initwd"
 	"github.com/hashicorp/terraform/registry"
+	"github.com/hashicorp/terraform/unstable/getproviders"
+	"github.com/hashicorp/terraform/unstable/initwd"
 
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configload"
 	"github.com/hashicorp/terraform/configs/configschema"
 	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/internal/copy"
 	"github.com/hashicorp/terraform/plans"
 	"github.com/hashicorp/terraform/plans/planfile"
 	"github.com/hashicorp/terraform/providers"
@@ -39,6 +38,7 @@ import (
 	"github.com/hashicorp/terraform/states/statefile"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform/unstable/copy"
 	"github.com/hashicorp/terraform/version"
 	"github.com/zclconf/go-cty/cty"
 

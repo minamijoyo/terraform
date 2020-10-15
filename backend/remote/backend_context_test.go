@@ -7,8 +7,8 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/internal/initwd"
 	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/hashicorp/terraform/unstable/initwd"
 	"github.com/zclconf/go-cty/cty"
 )
 

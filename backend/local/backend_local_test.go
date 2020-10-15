@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/internal/initwd"
+	"github.com/hashicorp/terraform/unstable/initwd"
 )
 
 func TestLocalContext(t *testing.T) {

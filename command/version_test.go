@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/internal/depsfile"
-	"github.com/hashicorp/terraform/internal/getproviders"
+	"github.com/hashicorp/terraform/unstable/depsfile"
+	"github.com/hashicorp/terraform/unstable/getproviders"
 	"github.com/mitchellh/cli"
 )
 

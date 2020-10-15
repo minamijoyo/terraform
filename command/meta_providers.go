@@ -12,10 +12,10 @@ import (
 
 	"github.com/hashicorp/terraform/addrs"
 	terraformProvider "github.com/hashicorp/terraform/builtin/providers/terraform"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
 	tfplugin "github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/providers"
+	"github.com/hashicorp/terraform/unstable/getproviders"
+	"github.com/hashicorp/terraform/unstable/providercache"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

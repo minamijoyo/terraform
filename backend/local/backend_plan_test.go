@@ -11,11 +11,11 @@ import (
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/initwd"
 	"github.com/hashicorp/terraform/plans"
 	"github.com/hashicorp/terraform/plans/planfile"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform/unstable/initwd"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )
